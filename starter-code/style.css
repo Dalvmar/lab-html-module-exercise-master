@@ -1,0 +1,266 @@
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+body{
+ font-family:  'Open Sans', OpenSans, sans-serif;
+ width: 100%;
+ font-weight:lighter;
+}
+h1, h2, h3, h4{
+  font-family: 'Open Sans', OpenSans, sans-serif;
+  font-weight:lighter;
+}
+h1{
+  font-size: 2.5em;
+}
+h2{
+  font-size: 1.9em;
+}
+.top-left{
+color: white;
+
+}
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 50px;
+    position: relative;
+   
+  }
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+.heart{
+margin:0 auto;
+padding: 2px;
+}
+.acronym{
+  font-family: 'Open Sans', OpenSans, sans-serif;
+}
+.top-links{ 
+display:inline-block;
+vertical-align: 50px; 
+margin: 0 20px 0px 0; 
+position: absolute;
+top:40%;
+left: 55%;
+}
+.top-links li{
+display: inline-block;
+margin: 0 10px;
+}
+.clearfix{
+ clear: both;
+}
+
+.build-amazing {
+  width:100%;
+  height:380px;
+  margin: 0 auto;
+  background-color: rgb(32, 101, 136);
+  text-align :left;
+  line-height: 1.5em;
+  padding:0;
+
+}
+.build-amazing img{
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  
+}
+
+.build-amazing button {
+color:white;
+background-color: rgb(240, 146, 51);
+border-radius: 20px;
+font-size:1em;
+padding-right: 15px;
+padding-left: 15px;
+border: 3px solid transparent;
+margin-top:25px;
+}
+.build-text{
+  height: 30px;
+  width: 35%;
+  position: relative;
+  top: 5px;
+  left: 190px;
+  display: inline-block;
+  line-height: 1.7em;
+  
+}
+
+.header{
+  color:white;
+  background-color:  rgb(32, 101, 136);
+  width: 100%;
+
+}
+.search-bar {
+position: relative;
+height: 35px;
+
+}
+.search-bar input{
+position: absolute;
+margin:0 auto;
+right:205px;
+top:6px;
+  font-size: 15px;
+  border: 2px solid transparent;
+  background: rgb(31, 82, 111);
+}
+.search-bar-img{ 
+position: absolute;
+top:3px;
+left: 15px;
+  float: left;
+  padding-top:5px;
+}
+.search{
+  position: absolute;
+  top:10px;
+  right:185px;
+}
+.search-span{
+  position: absolute;
+  top:10px;
+  right:60px;
+}
+
+.search-bar-img-bear { 
+
+position: absolute;
+right:11px;
+top:1px;
+padding-top:3px;
+}
+.section1-container{
+  width:100%;
+  height: 400px;
+  position: relative;
+  background-color: rgb(39, 53, 71);
+  color:white;
+  margin: 0 auto;
+}
+.section1-container img{
+  top:50%;
+  position: absolute;
+}
+#img-collaboration{
+  position:absolute;
+  top:50px;
+  right:40%;
+ }
+
+.section1-text{
+  margin:0 auto;
+  display: block;
+  float: right;
+  padding:30px 80px 30px;
+  font-weight:lighter;
+}
+ 
+.section1-text ul,li {
+  float: rigt;
+  line-height: 2em;
+
+}
+.section1-text button{
+  background:rgb(203, 56, 55);
+  border-radius: 20px;
+  color:white;
+  border: 3px solid transparent;
+  font-size:1em;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.section1-text a{
+  text-decoration: none;
+  color:white;
+  line-height: 2em;
+  font-weight:bolder;
+ 
+}
+.npm{ 
+  width: 100%;
+  height: 500px;
+  background: url("images/forklift.svg") 0 0 no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  color:white;
+position: relative;
+display: inline-block;
+
+}
+.text-npm{
+ position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 400px;
+  font-weight:lighter;
+  line-height: 1.9em;
+}
+.text-npm h2{
+
+height: 20%;
+ 
+} 
+.tex-npm span {
+
+  width: 10%;
+  line-height: 20px;
+  position: absolute;
+  
+}
+.text-npm button{
+ background:  rgb(49, 68, 88);
+ color:white;
+ font-size: 1em;
+ border-radius: 20px;
+ margin-top:20px;
+ padding-right: 20px;
+ padding-left: 20px;
+ border: 3px solid transparent;
+}
+
+.section3{
+width: 100%;
+ padding: 0 auto;
+ margin: 0 auto;
+background: white;
+}
+
+.heading-contain{
+  margin:0 auto;
+  position: relative;
+  text-align: center;
+}
+.heading-contain h2,p {
+  color:  rgb(83, 88, 98);
+}
+.container-packages{
+  margin: 0 auto;
+  text-align: center;
+
+}
+.packages-3{
+width: 33%;
+
+}
+.packages {
+float: left;
+color:rgb(135, 145, 156);
+
+}
+
+.packages-3 a{
+  color:rgb(208, 74, 73);
+  text-decoration: none;
+}
+
